@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="All Tests">
+    <test name="Login ">
+        <classes>
+            <class name="com.example.automation.AddLaptop"/>
+            <class name="com.example.automation.CartTest"/>
+            <class name="com.example.automation.AddItem"/>
+            <class name="com.example.automation.Invalid"/>
+
+        </classes>
+    </test>
+</suite>
